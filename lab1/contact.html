@@ -4,24 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body {
+            font-family: "Roboto", sans-serif;
+        }
+        h1 {
+            color: blue;
+            text-align: center;
+        }
+        .row {
+            display: flex;
+            justify-content: center
+        }
+        .imageFigure{
+            text-align: center;
+            width: 40%
+        }
+        .imageTitles {
+            font-size: max(2vw, 4vw)
+        }
+        .centerText{
+            text-align:center;
+        }
+    </style>
 </head>
 <body>
-    <h1>Contact the Homies</h1>
+    <heading>
+        <h1>Contact the Homies</h1>
+        <hr>
+        <div class="centerText">
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a> 
+            <a href="contact.html">Contact</a> 
+        </image>
+        <br><br>
+        <hr>
+    </heading>
+    <main>
+        <div id="content">
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSepKd7-KIkVJ3avR-IKPQ6_d_19ZSkkD_yN3AcRhJPubSw7ew/viewform?embedded=true" width="640" height="959" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        </div>
 
-    <hr>
 
-    <a href="home.html" target="_blank">Home</a>
-    <a href="about.html" target="_blank">About</a> 
-    <a href="contact.html" target="_blank">Contact</a> 
+        <div class="centerText">
+            <h6>Hello! Thank You for visiting our website. We are a group of Software Engineers who have recently been hiredby
+                Doofenshmirtz Evil Incorporated. </h6>
+            <br>
+            <p></p><em>“If you want to contact us, don't even try! </p>
+        </div>
+    </main>
 
-    <br><br>
 
-    <hr>
+    <footer>
+        <div class="centerText">
+            <p>CST336 Internet Programming. 2026&copy; Marshall, Lopez, Cabrera Hurtado </p>
+            <p><strong>Disclaimer:</strong> The information in this webpage is fictitious. </p>
+            <p>It is used for academic purposes only.</p>
 
-    <p>CST336 Internet Programming. 2026&copy; Marshall, Lopez, Cabrera Hurtado </p>
-    <p><strong>Disclaimer:</strong> The information in this webpage is fictitious. </p>
-    <p>It is used for academic purposes only.</p>
-
-    <br><img src="img/logo.png" alt="CSUMB logo">
+            <br><img src="img/logo.png" alt="CSUMB logo">
+        </div>
+    </footer>
 </body>
 </html>
