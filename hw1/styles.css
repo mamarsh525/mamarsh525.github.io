@@ -76,7 +76,7 @@ main{
     margin: 0 auto;
     font-size: large;
     color: white;
-    border:3px dashed white;
+    border:3px double white;
     background-color:rgb(41, 97, 130);
 }
 
