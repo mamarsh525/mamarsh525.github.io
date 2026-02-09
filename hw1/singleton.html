@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header><h1 class="page-title"> Design Patterns</h1>
+    </header>
+
+    <hr id ="header-divider">
+    <!-- Navigation Bar -->
+    <nav id = "main-nav" class="nav-container" "">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link is-active" href="singleton.html">Singleton</a>
+        <a class="nav-link" href="factory.html">Factory</a>
+        <a class="nav-link" href="observer.html">Observer</a>
+    </nav>
+
+    <main>
+        <div id="singleton">
+            <aside class="aside-text">
+                <h2>Singleton</h2>
+                <img id="image" src="https://refactoring.guru/images/patterns/content/singleton/singleton.png?id=108a0b9b5ea5c4426e0afa4504491d6f" alt="singleton picture">
+                <ul>
+                    <li>The Singleton pattern guarantees that a class can be instantiated only once and that the same instance can be accessed throughout the program.</li>
+                    <li>It’s useful when you want centralized control over a shared resource (like configuration, logging, or a database connection).</li>
+                    <li>A key benefit is avoiding the accidental creation of multiple objects, which can waste memory or create conflicting state.</li>
+                    <li>Common real-world uses include logging systems, configuration managers, database connection managers, and thread pools.</li>
+                    <li>Typical Singleton structure includes a private constructor, a static variable to store the single instance, and a static method (like getInstance()) to return it.</li>
+                    <li>There are multiple implementation approaches (lazy, eager, synchronized/thread-safe, double-checked locking, static inner class, enum), each balancing simplicity, performance, and thread safety.</li>
+                </ul>
+                <a href="https://www.geeksforgeeks.org/system-design/singleton-design-pattern/" target="_blank"> Geeks for Geeks Link</a>
+            </aside>
+            <iframe id ="wiki-box"
+                src="https://en.wikipedia.org/wiki/Singleton_pattern"
+                title="Wikipedia"
+                allowfullscreen>
+            </iframe>
+        </div>
+
+        
+        
+    </main>
+
+    <hr>
+
+    <footer class="footer">
+        <p class = "footer-text">CST336 Internet Programming. 2026&copy; Maximilian Marshall <br>
+        <strong>Disclaimer:</strong> The information in this webpage is for an academic purpose. <br></p>
+        <img src="img/logo.png" alt="CSUMB logo">
+    </footer>
+
+
+</body>
+</html>

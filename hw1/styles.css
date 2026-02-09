@@ -1,0 +1,152 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(39, 56, 66);
+    background-image: url("https://media2.giphy.com/headers/clubdoauto/fjDIBvQjjE3G.gif");
+    background-size: 100%;
+}
+
+main{
+    padding-top:40px;
+    padding-bottom:50px;
+}
+
+.page-title{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+
+    width: 75%;
+    padding: 5px;
+    margin: 0 auto;
+
+    border: 1px solid white;
+    border-radius: 40px;
+    background-color: rgb(26, 121, 142);
+}
+
+#header-divider{
+    margin: 0;
+    border: 0;
+    height: 5px;
+    background-color: rgb(70, 68, 68);
+}
+
+#main-nav{
+    background-color: rgb(26, 121, 142);
+}
+
+.nav-container{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin: 8px;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: black;
+    border: 2px solid gray;
+    border-radius: 50px;
+    background-color: white;
+    padding: 4px;
+}
+
+.nav-link:hover{
+    color: yellow;
+    background-color:rgb(49, 49, 143);
+}
+
+.nav-link:active{
+    color: rgb(186, 227, 90);
+}
+
+.is-active{
+    background-color:rgb(232, 229, 44);
+}
+
+#index-text{
+    padding:5px;
+}
+
+#index-text-box{
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+    font-size: large;
+    color: white;
+    border:3px dashed white;
+    background-color:rgb(41, 97, 130);
+}
+
+.image{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#design-patterns{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+#design-patterns-text{
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 40px;
+    background-color: rgb(26, 121, 142);
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.footer-text{
+    text-align: center;
+    color: white;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 40px;
+    background-color: rgb(26, 121, 142);
+}
+
+.aside-text{
+    text-align: center;
+    color: white;
+    width: 700px;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 40px;
+    background-color: rgb(26, 121, 142);
+}
+
+#singleton, #factory, #observer{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 40px 0;
+    margin: 80px;
+    margin-top: 0;
+}
+
+#wiki-box{
+    width: 700px;
+    height: 800px;
+    border: 5px solid white;
+    margin:80px;
+    margin-top: 0;
+    background-color: rgb(26, 121, 142);
+}

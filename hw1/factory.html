@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header><h1 class="page-title"> Design Patterns</h1>
+    </header>
+
+    <hr id ="header-divider">
+    <!-- Navigation Bar -->
+    <nav id = "main-nav" class="nav-container" "">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="singleton.html">Singleton</a>
+        <a class="nav-link is-active" href="factory.html">Factory</a>
+        <a class="nav-link" href="observer.html">Observer</a>
+    </nav>
+
+    <main>
+        <div id="factory">
+            <aside class="aside-text">
+                <h2>Factory</h2>
+                <img id="image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Factory_1b.svg/500px-Factory_1b.svg.png" alt="factory picture">
+                <ul>
+                    <li>The Factory Method is a creational design pattern that defines a method/interface for creating objects, but lets subclasses decide which concrete class to instantiate.</li>
+                    <li>It improves loose coupling by separating object creation from object usage, so the client code doesn’t depend directly on specific classes.</li>
+                    <li>It makes systems easier to extend: you can add new product types by adding new concrete products/factories, often without changing existing client code (supports the Open/Closed Principle).</li>
+                    <li>It’s helpful when object creation is complex or varies based on conditions (instead of putting lots of if/else + new logic inside the client).</li>
+                    <li>Common real-world uses include creating components dynamically in things like browsers (renderers/plugins), Android activity creation, payment processors, and game object spawning.</li>
+                    <li>Main components are: Product (interface/base class), Concrete Product, Creator/Factory (declares the factory method), and Concrete Creator/Factory (implements the method to return the specific product).</li>
+                </ul>
+                <a href="https://www.geeksforgeeks.org/system-design/factory-method-for-designing-pattern/" target="_blank"> Geeks for Geeks Link</a>
+            </aside>
+            <iframe id ="wiki-box"
+                src="https://en.wikipedia.org/wiki/Factory_method_pattern"
+                title="Wikipedia"
+                allowfullscreen>
+            </iframe>
+        </div>
+
+        
+        
+    </main>
+
+    <hr>
+
+    <footer class="footer">
+        <p class = "footer-text">CST336 Internet Programming. 2026&copy; Maximilian Marshall <br>
+        <strong>Disclaimer:</strong> The information in this webpage is for an academic purpose. <br></p>
+        <img src="img/logo.png" alt="CSUMB logo">
+    </footer>
+
+
+</body>
+</html>

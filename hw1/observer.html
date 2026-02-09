@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header><h1 class="page-title"> Design Patterns</h1>
+    </header>
+
+    <hr id ="header-divider">
+    <!-- Navigation Bar -->
+    <nav id = "main-nav" class="nav-container">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="singleton.html">Singleton</a>
+        <a class="nav-link" href="factory.html">Factory</a>
+        <a class="nav-link is-active" href="observer.html">Observer</a>
+    </nav>
+
+ <main>
+        <div id="observer">
+            <aside class="aside-text">
+                <h2>Observer</h2>
+                <img id="image" src="https://png.pngtree.com/png-vector/20250523/ourmid/pngtree-magnifying-glass-png-sticker-search-tool-image-png-image_16355421.png" alt="observer picture">
+                <ul>
+                    <li>The Observer Design Pattern is a behavioral pattern that creates a one-to-many dependency between objects, so when one object changes state, all its dependents are automatically notified and updated. </li>
+                    <li>It promotes loose coupling by keeping the subject (the object being observed) independent of its observers; the subject doesn’t need to know how its observers implement their updates. </li>
+                    <li>In this pattern, a Subject maintains a list of Observers and provides methods to attach, detach, and notify them when its internal state changes. </li>
+                    <li>Observers can be added or removed at runtime, making the design flexible and extensible without modifying existing subject logic.</li>
+                    <li>It’s commonly used in real systems such as GUI event listeners, social media notifications, stock market apps, and weather monitoring systems, where multiple components need updates when data changes. </li>
+                    <li>Key benefits include scalability (many observers can register), reusability (subjects and observers can be reused independently), and automatic synchronization of dependent objects with minimal direct coupling. </li>
+                </ul>
+                <a href="https://www.geeksforgeeks.org/system-design/observer-pattern-set-1-introduction/" target="_blank"> Geeks for Geeks Link</a>
+            </aside>
+            <iframe id ="wiki-box"
+                src="https://en.wikipedia.org/wiki/Singleton_pattern"
+                title="Wikipedia"
+                allowfullscreen>
+            </iframe>
+        </div>
+
+        
+        
+    </main>
+
+    <hr>
+
+    <footer class="footer">
+        <p class = "footer-text">CST336 Internet Programming. 2026&copy; Maximilian Marshall <br>
+        <strong>Disclaimer:</strong> The information in this webpage is for an academic purpose. <br></p>
+        <img src="img/logo.png" alt="CSUMB logo">
+    </footer>
+
+
+</body>
+</html>
