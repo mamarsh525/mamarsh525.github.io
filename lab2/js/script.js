@@ -61,7 +61,7 @@ function checkGuess(){
             feedback.textContent = "You guessed it! You won!";
         }
         feedback.style.color = "darkgreen";
-        guessNum.textContent = "It took you " + attempts + " amount of time to win the game.";
+        guessNum.textContent = 7 - attempts + "It took you " + attempts + " times to win the game.";
         win++;
         gameOver();
     } else {
