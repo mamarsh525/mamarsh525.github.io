@@ -1,30 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="js/script.js" defer>
-    </script>
+    <title> Guess a Number </title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
     <header>
-        <h1> Guess the Number!</h1>
+        <h1 id = "title">Guess the Number!</h1>
+        <h2>Guess a number between 1 and 99 in seven attempts!</h2>
     </header>
-    
-    Guess:
-    <!-- creates a text box -->
-    <input id="userGuess" type="text" size = "5">
-
     <br>
+    <main>
+    <div id="main">
+       <span id="guessQuestion"><h3>Enter a guess:</h3></span>
+        <input type="text" id="playerGuess" size="5">
+        <button id="guessBtn"> Guess </button> <br>
+        <button id="resetBtn"> Reset </button>
+        <div id="feedback"></div>
+        <div><h3> Previous Guesses: 
+            <span id ="guesses"></span>
+        </h3></div>
+        <div id="guessNumAll">Guesses left: <span id="guessNum"></span></div>
+        <div id ="stats">Wins: <span id="wins"></span> Losses: <span id="losses"></span></div>
 
-    <button id="guessBtn"> Guess! </button>
+    </div>
+    <script src="js/script.js"></script>    
+    </main>
 
-    <br>
-    Previous Guesses:
-    <span id="userGuesses"></span>
-
-
+    <footer class="footer">
+        <p class = "footer-text"><span id="className">CST336 Internet Programming.</span> 2026&copy; Maximilian Marshall <br>
+        <strong>Disclaimer:</strong> The information in this webpage is for an academic purpose. <br></p>
+        <img id = "img" src="img/logo.png" alt="CSUMB logo">
+    </footer>
 
 </body>
+
 </html>

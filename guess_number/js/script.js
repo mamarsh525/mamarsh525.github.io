@@ -21,11 +21,10 @@ function initializeGame() {
    document.querySelector("#guessBtn").style.display = "inline";
 
    //shows attempts made
-   document.querySelector("#guessNum").textContent = 7;
+   document.querySelector("#guessNum").textContent = "Guesses left: 7";
 
    //show wins/ losses
-   document.querySelector("#wins").textContent = win;
-   document.querySelector("#losses").textContent = loss;
+   document.querySelector("#stats").textContent = "Wins: " + win + " Losses: " + loss;
 
    let playerGuess = document.querySelector("#playerGuess");
    playerGuess.focus(); //adding focus to the textbox
@@ -74,10 +73,10 @@ function checkGuess(){
             gameOver();
         } else if (guess > randomNumber){
             feedback.textContent = "Guess was high";
-            guessNum.textContent = 7 - attempts;
+            guessNum.textContent = "Guesses left: " + (7 - attempts);
         } else {
             feedback.textContent = "Guess was low";
-            guessNum.textContent = 7 - attempts;
+            guessNum.textContent = "Guesses left: " + (7 - attempts);
         }
     }
     // let guess = document.querySelector("#playerGuess").value;
@@ -93,8 +92,9 @@ function checkGuess(){
 function gameOver(){
     let guessBtn = document.querySelector("#guessBtn");
     let resetBtn = document.querySelector("#resetBtn");
+    let stats = document.querySelector("#stats");
     guessBtn.style.display = "none";
     resetBtn.style.display = "inline";
-    document.querySelector("#wins").textContent = win;
-    document.querySelector("#losses").textContent = loss;
+    stats.textContent = "Wins: " + win + " Losses: " + loss;
+
 }

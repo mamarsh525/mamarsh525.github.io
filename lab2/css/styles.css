@@ -1,0 +1,168 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(149, 172, 185);
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/007/270/721/small_2x/set-of-question-mark-icon-vector.jpg");
+    background-size: 75%;
+}
+
+header{
+    margin: 0 auto;
+    margin-top: 30px;
+    border: 2px solid black;
+    padding: 10px;
+    width: fit-content;
+    background-color: #f0f0f0;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+}
+
+main{
+    padding-top:40px;
+    padding-bottom:50px;
+    border-radius: 15px;
+    max-width: 600px;
+    margin: 20px auto;
+    border-radius: 15px;
+    background-color: #f0f0f0;
+    opacity: .96;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    text-align: center;
+
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 1.7rem;
+}
+
+#playerGuess{
+    display: block;
+    color: rgb(91, 28, 150);
+    margin: 0 auto;
+    text-align: center;
+}
+
+#playerGuess:focus{
+    outline: none;
+    border-color: rgb(0, 0, 0);
+    box-shadow: 0 0 10px rgba(138, 43, 226, 0.5);
+}
+
+#guessQuestion{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#guessBtn{
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#guessBtn:hover{
+    background-color: rgb(247, 134, 232);
+    transform: scale(2);
+}
+
+#img{
+    width: 100%;
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+#img:hover{
+    transform: rotate(180deg) scale(1.1);
+}
+
+#title{
+    font-weight: bold;
+    text-shadow: 1px 1px 2px gray;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #d5d5d5;
+    border-radius: 15px;
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    opacity: .98;
+}
+
+.footer-text{
+    line-height: 1.8;
+    font-size: 0.95rem;
+    color: #333;
+}
+
+#resetBtn{
+    margin: 20px auto;
+    padding: 12px 30px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+}
+
+#resetBtn:hover{
+    background-color: #da190b;
+    transform: scale(1.05);
+}
+
+#feedback{
+    margin-top: 40px;
+    padding:20px;
+    border: 1px solid #33333374; 
+    font-size: 1.5rem;
+}
+
+#guesses{
+    color: #115b98;
+    font-weight: bold;
+}
+
+#guessNumAll{
+    font-size: 1.1rem;
+    margin:5px;
+}
+
+#guessNum{
+    color: #115b98;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+#wins{
+    color: green;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+#losses{
+    color: tomato;
+    font-weight:bold;
+        font-size: 1.2rem;
+}
+
+#className:hover{
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    color: white;
+}
