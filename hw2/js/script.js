@@ -1,5 +1,6 @@
 const prices = [499.99, 1400.00, 4000.00]; // Graflex, Hasselblad, Leica
 let promoDiscount = 10; // percent off
+//shipping codes: FREESHIP HALFOFF SAVE10
 
 //EVENT lISTENERS
 document.querySelector("#applyPromoBtn").addEventListener("click", applyPromo); // promo button

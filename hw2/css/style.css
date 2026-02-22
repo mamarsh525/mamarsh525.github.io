@@ -70,10 +70,6 @@ main{
     border-left: 2px solid #ccc;
 }
 
-#promoMsg {
-    margin: 0;
-}
-
 select {
     padding: 5px 8px;
     border: 1px solid #ccc;
