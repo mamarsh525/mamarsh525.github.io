@@ -11,6 +11,9 @@ const shippingSelect = document.querySelector("#shipping");
 const shippingImg = document.querySelector("#shippingImg");
 shippingSelect.addEventListener("change", updateShippingImage);
 shippingSelect.addEventListener("change", updateTotals);
+document.querySelector("#checkoutBtn").addEventListener("click", function() {
+    alert("Thank you for your purchase, you will get an email soon!");
+});
 
 //for loop to create 0 through 20 option amounts for each camera select tag
 for (let i = 1; i <= 3; i++) {

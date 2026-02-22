@@ -2,8 +2,9 @@ body{
     margin: 0;
     padding: 0;
     background-color: rgb(149, 172, 185);
-    background-image: url("https://i.natgeofe.com/n/bdcfbb09-ba59-4ca3-b365-ae8d3a83b9fa/20140623-essick-anseladamswilderness-04.jpg");
-    background-size: 125%;
+    background-image: url("../img/essickAnselAdams.jpg");
+    background-size: cover;
+    background-position: center;
     font-family: 'Lora', serif;
 }
 
@@ -56,6 +57,7 @@ main{
     display: flex;
     gap: 30px;
     align-items: flex-start;
+    justify-content: center;
 }
 
 .checkout-section {
@@ -63,7 +65,13 @@ main{
     flex-direction: column;
     align-items: center;
     min-width: 200px;
-    padding-top: 10px;
+    gap: 10px;
+    padding: 15px;
+    border-left: 2px solid #ccc;
+}
+
+#promoMsg {
+    margin: 0;
 }
 
 select {
@@ -132,13 +140,16 @@ h2{
 
 .footer{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    justify-content: center;
+    gap: 20px;
     background-color: #d5d5d5;
     border-radius: 15px;
-    max-width: 600px;
+    max-width: 900px;
     text-align: center;
     margin: 0 auto;
+    flex-wrap: wrap;
     margin-bottom: 20px;
     opacity: .98;
     border-top: 4px solid #a0764a;
@@ -166,6 +177,7 @@ h2{
   display: flex;
   flex-direction: column;
   align-items: center;
+  align-self: center;
 }
 
 #shippingImg {
