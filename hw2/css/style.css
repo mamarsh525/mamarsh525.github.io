@@ -1,0 +1,201 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(149, 172, 185);
+    background-image: url("https://i.natgeofe.com/n/bdcfbb09-ba59-4ca3-b365-ae8d3a83b9fa/20140623-essick-anseladamswilderness-04.jpg");
+    background-size: 125%;
+    font-family: 'Lora', serif;
+}
+
+h1, h2 {
+    font-family: 'Playfair Display', serif;
+}
+
+header{
+    margin: 0;
+    padding: 5px 40px;
+    width: 100%;
+    background-color: #f0f0f0;
+    text-align: center;
+    opacity: .96;
+    box-sizing: border-box;
+    border-bottom: 4px solid #a0764a;
+}
+
+header h1{
+    margin: 5px 0 0;
+    font-size: 1.4rem;
+    letter-spacing: 2px;
+    color: #2a2a2a;
+}
+
+header h2{
+    margin: 0 0 5px;
+    font-weight: normal;
+    color: #444;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+}
+
+main{
+    padding: 40px 30px 50px;
+    border-radius: 15px;
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: #f0f0f0;
+    opacity: .96;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    text-align: center;
+    font-size: 0.95rem;
+    color: #333;
+    line-height: 1.6;
+    border-top: 4px solid #a0764a;
+}
+
+#main {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.checkout-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 200px;
+    padding-top: 10px;
+}
+
+select {
+    padding: 5px 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    background-color: white;
+}
+
+button {
+    padding: 8px 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: #a0764a;
+    color: white;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #7d5a36;
+}
+
+#promo {
+    padding: 5px 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+
+#checkoutBtn {
+    margin-top: 15px;
+    padding: 10px 30px;
+    font-size: 1.1rem;
+    background-color: #8b6333;
+}
+
+#checkoutBtn:hover {
+    background-color: #6b4a25;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+#img{
+    width: 100%;
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+#img:hover{
+    transform: rotate(180deg) scale(1.1);
+}
+
+#title{
+    font-weight: bold;
+    text-shadow: 1px 1px 2px gray;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #d5d5d5;
+    border-radius: 15px;
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    opacity: .98;
+    border-top: 4px solid #a0764a;
+}
+
+.footer-text{
+    line-height: 1.8;
+    font-size: 0.95rem;
+    color: #333;
+}
+
+#className:hover{
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    color: white;
+}
+
+.items-and-shipping {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  align-items: flex-start;
+}
+
+.shipping-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#shippingImg {
+  display: block;
+  margin-top: 10px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.item-img {
+  width: 80px;
+  height: auto;
+}
+
+.item-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.item-info select {
+  width: 220px;
+}
+
+.item:hover {
+  background-color: #f5f5f5;
+  padding: 10px;
+  border-radius: 8px;
+}

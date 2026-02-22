@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lora:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1 id="title">Camera Land</h1>
+        <h2>Your go to site for camera shopping needs.</h2>
+    </header>
+    <main>
+        <div id="main">
+            <div class="items-and-shipping">
+                <div class="items-list">
+                    <div class="item">
+                        <img src="img/graflex.png" alt="Camera 1" class="item-img" width="120">
+                        <div class="item-info">
+                            <label for="amount1">Graflex Speed Graphic(4x5 film):</label>
+                            <select id="amount1"></select><br>
+                            Subtotal: $<span id="subtotal1">0.00</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="img/hasselblad.png" alt="Camera 2" class="item-img" width="120">
+                        <div class="item-info">
+                            <label for="amount2">Hasselblad 500C (120 roll film):</label>
+                            <select id="amount2"></select><br>
+                            Subtotal: $<span id="subtotal2">0.00</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="img/leica.png" alt="Camera 3" class="item-img" width="120">
+                        <div class="item-info">
+                            <label for="amount3">Leica M6 (35mm film):</label>
+                            <select id="amount3"></select><br>
+                            Subtotal: $<span id="subtotal3">0.00</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="shipping-section">
+                    <label for="shipping">Shipping Method:</label>
+                    <select id="shipping">
+                        <option value="standard">Standard (Truck)</option>
+                        <option value="express">Express (Plane)</option>
+                        <option value="economy">Economy (Snail)</option>
+                    </select>
+                    <br>
+                    <img id="shippingImg" alt="Shipping method image" width="120">
+                </div>
+            </div>
+
+            <div class="checkout-section">
+                <label for="promo">Promo Code:</label>
+                <input type="text" id="promo" placeholder="Enter code">
+                <button id="applyPromoBtn">Apply</button>
+
+                <p id="promoMsg"></p>
+
+                Shipping: $<span id="shippingCost">0.00</span>
+                <br>
+                Tax: $<span id="finalTax">0.00</span>
+                <br>
+
+                Final Price: $<span id="finalTotal">0.00</span>
+                <br>
+                <button id="checkoutBtn"> Checkout </button>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p class="footer-text"><span id="className">CST336 Internet Programming.</span> 2026&copy; Maximilian Marshall
+            <br>
+            <strong>Disclaimer:</strong> The information in this webpage is for an academic purpose. <br>
+        </p>
+        <img id="img" src="img/logo.png" alt="CSUMB logo">
+    </footer>
+
+</body>
+
+</html>
