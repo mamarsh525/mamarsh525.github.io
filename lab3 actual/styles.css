@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0 auto;
+    padding: 10px 20px;
+    color: #333;
+    overflow: hidden;
+    max-width: 1200px;
+}
+
+.quiz-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.question-block {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+#q1 {
+    font-weight: bold;
+}
+
+#q1Div, #q2Div, #q3Div, #q4Div, #q5Div, #totalScoreDiv {
+    min-height: 30px;
+    max-width: 30px;
+    margin-bottom: 10px; 
+    padding: 5px;
+    border-radius: 5px; 
+}
+
+input[type="text"], input[type="number"] {
+    background-color: #f0f0f0;
+    border: 1px solid #999;
+    border-radius: 5px;
+    padding: 4px;
+    width: 100%;
+}
+
+select {
+    border: 1px solid #999;
+    border-radius: 5px;
+    padding: 4px;
+    background-color: #f0f0f0;
+    width: 100%;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+#totalScoreDiv, #timesDiv {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+#congratsDiv {
+    color: green; 
+    font-size: 1.3rem;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+button {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    background-color: #333;
+    color: #f0f0f0;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 20px;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: #d5d5d5;
+    border-radius: 5px;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    border: 2px solid black;
+}
+
+.footer-text{
+    line-height: 1.8;
+    font-size: 0.95rem;
+    color: #333;
+}
+
+#img {
+    opacity: 0.8;
+    width: 80px;
+}

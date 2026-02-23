@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 3: Quiz</title>
+    <script src="https://unpkg.com/underscore@1.13.7/underscore-umd-min.js"></script>
+    <script src="js/script.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+    <h1>CSS Quiz</h1>
+
+    <div class="quiz-grid">
+
+        <div class="question-block">
+            <!-- radio element -->
+            <div id="q1"> 1. What setting control how fast a photo is taken?</div>
+            <div id="q1Div"> </div>
+        </div>
+
+        <div class="question-block">
+            <!-- text box -->
+            <label for="q2">2. What is your name?</label>
+            <input id="q2" type="text">
+            <div id="q2Div"> </div>
+        </div>
+
+        <div class="question-block">
+            <label for="q3">3. What is the design pattern that only has one copy of an instance?</label>
+            <!-- dropdown menu -->
+            <select id="q3">
+                <option>Singleton</option>
+                <option>Factory</option>
+                <option>Observer</option>
+            </select>
+            <div id="q3Div"> </div>
+        </div>
+
+        <div class="question-block">
+            <!-- number -->
+            <label for="q4">4. What is 2 - 0.2?</label>
+            <input id="q4" type="number" min="1" max="3" step="0.1">
+            <div id="q4Div"> </div>
+        </div>
+
+        <div class="question-block">
+            <!-- checkbox -->
+            <label><input id="q5" type="checkbox" name="q4">I am ready for class</label>
+            <div id="q5Div"> </div>
+        </div>
+
+    </div>
+
+    <div id="totalScoreDiv">total score: </div>
+
+    <div id="timesDiv">Total Times Taken: </div>
+
+    <div id="congratsDiv"></div>
+
+    <button> Submit Quiz </button>
+
+</body>
+    <footer class="footer">
+        <p class="footer-text"><span id="className">CST336 Internet Programming.</span> 2026&copy; Maximilian Marshall
+            <br>
+            <strong>Disclaimer:</strong> The information in this webpage is for an academic purpose. <br>
+        </p>
+        <img id="img" src="img/logo.png" alt="CSUMB logo">
+    </footer>
+</html>
