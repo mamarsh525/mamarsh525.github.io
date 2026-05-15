@@ -1,11 +1,76 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Marshall Personal Site</title>
-    <link>https://mamarsh525.github.io/</link>
-    <description>Recent content on Marshall Personal Site</description>
+    <title>Home on Maximilian Marshall ePortfolio</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Home on Maximilian Marshall ePortfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://mamarsh525.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Getting Started with Research</title>
+      <link>http://localhost:1313/blog/my-first-post/</link>
+      <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/my-first-post/</guid>
+      <description>&lt;p&gt;This is your first blog post. You can write about anything you want — your research, what you&amp;rsquo;re learning, projects you&amp;rsquo;re working on, or lessons you&amp;rsquo;ve learned.&lt;/p&gt;
+&lt;h2 id=&#34;how-to-write-blog-posts&#34;&gt;How to write blog posts&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Create a new markdown file in &lt;code&gt;content/blog/&lt;/code&gt; (or &lt;code&gt;content/posts/&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;Add the frontmatter (title, date, etc.)&lt;/li&gt;
+&lt;li&gt;Write your content in markdown&lt;/li&gt;
+&lt;li&gt;Save and rebuild with &lt;code&gt;hugo&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;example-sections&#34;&gt;Example sections&lt;/h2&gt;
+&lt;p&gt;You can use headings, lists, code blocks, links, and all standard markdown features.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About Me</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;p&gt;&lt;img alt=&#34;ICPC&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/icpc-group.jpg&#34;&gt;
+&lt;strong&gt;CSUMB ICPC Cohort 2026&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;my-journey&#34;&gt;My Journey&lt;/h2&gt;
+&lt;p&gt;My path through college has been unconventional, but it&amp;rsquo;s shaped who I am today. I started as a Computer Science student at San Francisco State University, but after facing personal challenges, including the loss of my mother and the disruption of the COVID-19 pandemic, I decided to step away from school.&lt;/p&gt;
+&lt;p&gt;Those years away became a turning point. While working in the service industry (at Cafe Fina and REI), I developed resilience, empathy, and invaluable skills in communication and teamwork. I also continued exploring my passion for computers through personal projects, organizing large music collections and learning about data management and digital systems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CV / RESUME</title>
+      <link>http://localhost:1313/cv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/cv/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/resume.pdf&#34;&gt;Download as PDF&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;education&#34;&gt;Education&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;California State University, Monterey Bay&lt;/strong&gt;
+B.S. Computer Science&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Concentration in Data Science&lt;/li&gt;
+&lt;li&gt;Fall 2024 - Spring 2027 (expected)&lt;/li&gt;
+&lt;li&gt;Dean&amp;rsquo;s List: Spring 2025, Fall 2025, Spring 2026&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;San Francisco State University&lt;/strong&gt;
+Partial B.S. Coursework completed&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Fall 2018 - Fall 2020&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;skills&#34;&gt;Skills&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Programming:&lt;/strong&gt; Python, Java, C++, Kotlin, JavaScript, Typescript&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Libraries &amp;amp; Tools:&lt;/strong&gt; Git, NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn, TensorFlow, JUnit, SQL, Jupyter&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Languages:&lt;/strong&gt; Fluent Portuguese&lt;/p&gt;
+&lt;h2 id=&#34;experience&#34;&gt;Experience&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Teaching Assistant&lt;/strong&gt; | California State University | Jan 2025 - Present&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Research</title>
+      <link>http://localhost:1313/research/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research/</guid>
+      <description>&lt;h2 id=&#34;spore-weight-analysis&#34;&gt;Spore Weight Analysis&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;GREAT Scholars Summer 2026&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m conducting research at UC Santa Cruz in the Gomez Lab under the mentorship of Dr. Marcella Gomez and Alexandra Nava. This project is supported by the GREAT Scholars program.&lt;/p&gt;
+&lt;h3 id=&#34;project-overview&#34;&gt;Project Overview&lt;/h3&gt;
+&lt;p&gt;This summer, I&amp;rsquo;m analyzing data related to bacterial spore germination: understanding how spores transition from a dormant to an active state. Spores are incredibly resilient and can survive harsh environmental conditions, then germinate when exposed to specific signals. Understanding this process has important applications in microbiology, food safety, and biotechnology.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
