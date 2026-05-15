@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Blog on Maximilian Marshall ePortfolio</title>
-    <link>http://localhost:1313/blog/</link>
+    <link>https://mamarsh525.github.io/blog/</link>
     <description>Recent content in Blog on Maximilian Marshall ePortfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 15 May 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://mamarsh525.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GREAT Scholars Trip to UCSC</title>
-      <link>http://localhost:1313/blog/my-first-post/</link>
+      <link>https://mamarsh525.github.io/blog/my-first-post/</link>
       <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/my-first-post/</guid>
+      <guid>https://mamarsh525.github.io/blog/my-first-post/</guid>
       <description>&lt;p&gt;A few weeks ago, our GREAT Scholars cohort took a trip to the UCSC campus for a day. This was done to prepare us for our summer research, by introducing us to our mentors and showing us around the campus. I took some film photos that day, so I will be sharing some of those.&lt;/p&gt;
 &lt;h2 id=&#34;how-to-write-blog-posts&#34;&gt;How to write blog posts&lt;/h2&gt;
 &lt;ol&gt;

@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Home on Maximilian Marshall ePortfolio</title>
-    <link>http://localhost:1313/</link>
+    <link>https://mamarsh525.github.io/</link>
     <description>Recent content in Home on Maximilian Marshall ePortfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 15 May 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://mamarsh525.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Getting Started with Research</title>
-      <link>http://localhost:1313/blog/my-first-post/</link>
+      <title>GREAT Scholars Trip to UCSC</title>
+      <link>https://mamarsh525.github.io/blog/my-first-post/</link>
       <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/my-first-post/</guid>
-      <description>&lt;p&gt;This is your first blog post. You can write about anything you want — your research, what you&amp;rsquo;re learning, projects you&amp;rsquo;re working on, or lessons you&amp;rsquo;ve learned.&lt;/p&gt;
+      <guid>https://mamarsh525.github.io/blog/my-first-post/</guid>
+      <description>&lt;p&gt;A few weeks ago, our GREAT Scholars cohort took a trip to the UCSC campus for a day. This was done to prepare us for our summer research, by introducing us to our mentors and showing us around the campus. I took some film photos that day, so I will be sharing some of those.&lt;/p&gt;
 &lt;h2 id=&#34;how-to-write-blog-posts&#34;&gt;How to write blog posts&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;Create a new markdown file in &lt;code&gt;content/blog/&lt;/code&gt; (or &lt;code&gt;content/posts/&lt;/code&gt;)&lt;/li&gt;
@@ -26,10 +26,10 @@
     </item>
     <item>
       <title>About Me</title>
-      <link>http://localhost:1313/about/</link>
+      <link>https://mamarsh525.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
-      <description>&lt;p&gt;&lt;img alt=&#34;ICPC&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/icpc-group.jpg&#34;&gt;
+      <guid>https://mamarsh525.github.io/about/</guid>
+      <description>&lt;p&gt;&lt;img alt=&#34;ICPC&#34; loading=&#34;lazy&#34; src=&#34;https://mamarsh525.github.io/icpc-group.jpg&#34;&gt;
 &lt;strong&gt;CSUMB ICPC Cohort 2026&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id=&#34;my-journey&#34;&gt;My Journey&lt;/h2&gt;
 &lt;p&gt;My path through college has been unconventional, but it&amp;rsquo;s shaped who I am today. I started as a Computer Science student at San Francisco State University, but after facing personal challenges, including the loss of my mother and the disruption of the COVID-19 pandemic, I decided to step away from school.&lt;/p&gt;
@@ -37,10 +37,10 @@
     </item>
     <item>
       <title>CV / RESUME</title>
-      <link>http://localhost:1313/cv/</link>
+      <link>https://mamarsh525.github.io/cv/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/cv/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/resume.pdf&#34;&gt;Download as PDF&lt;/a&gt;&lt;/p&gt;
+      <guid>https://mamarsh525.github.io/cv/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://mamarsh525.github.io/resume.pdf&#34;&gt;Download as PDF&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;education&#34;&gt;Education&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;California State University, Monterey Bay&lt;/strong&gt;
 B.S. Computer Science&lt;/p&gt;
@@ -63,9 +63,9 @@ Partial B.S. Coursework completed&lt;/p&gt;
     </item>
     <item>
       <title>Research</title>
-      <link>http://localhost:1313/research/</link>
+      <link>https://mamarsh525.github.io/research/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/research/</guid>
+      <guid>https://mamarsh525.github.io/research/</guid>
       <description>&lt;h2 id=&#34;spore-weight-analysis&#34;&gt;Spore Weight Analysis&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;GREAT Scholars Summer 2026&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;I&amp;rsquo;m conducting research at UC Santa Cruz in the Gomez Lab under the mentorship of Dr. Marcella Gomez and Alexandra Nava. This project is supported by the GREAT Scholars program.&lt;/p&gt;
