@@ -1,0 +1,12 @@
+/* Increase max-width for wider content on desktop */
+.post-content,
+.page-content,
+main article,
+main {
+  max-width: 900px !important;
+}
+
+.post,
+.page {
+  max-width: 900px !important;
+}
